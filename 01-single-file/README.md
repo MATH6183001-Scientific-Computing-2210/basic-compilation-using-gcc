@@ -246,7 +246,7 @@ There are 4 steps in a C code compilation, i.e.,:
     But anyway, try the following to generate an executable file.
     
     ```sh
-    gcc -o main.out main_without_dependency.c
+    gcc -o  main.out main_without_dependency.o
     ```
 
     It will outout `main.out`.
